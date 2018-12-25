@@ -1,2 +1,0 @@
-#  MQTT_Thermostat
-## thomas
