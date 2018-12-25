@@ -1,4 +1,7 @@
 #  MQTT_Thermostat
+
+## Follow the next steps to control your thermostat with a raspberry pi
+
 ## Step 1: Download these two repositories into your home directory /home/pi"
     git clone https://github.com/ThomasMoellerR/MQTT_Thermostat.git
     git clone https://github.com/eclipse/paho.mqtt.python
