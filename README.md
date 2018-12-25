@@ -30,3 +30,7 @@
 `--mqtt_topic_set_temperature "thermostat/set_temperature" \`
 
 `--mqtt_topic_ack_temperature "thermostat/ack_temperature" \`
+
+
+## Step 6: Reboot your Pi
+    sudo reboot
