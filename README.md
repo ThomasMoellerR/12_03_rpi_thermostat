@@ -8,8 +8,9 @@
 
 ## Step 2: Install MQTT module for python3
     cd paho.mqtt.python
-    python3 setup.py install
+    sudo python3 setup.py install
     cd ..
+    sudo rm -r paho.mqtt.python
 
 ## Step 3: Install tmux
     sudo apt-get install tmux
@@ -35,5 +36,19 @@
 `--mqtt_topic_ack_temperature "thermostat/ack_temperature" \`
 
 
-## Step 6: Reboot your Pi
+## Step 6: Reboot your Pi or start the tmux session manually
     sudo reboot
+
+    or
+
+    bash /home/pi/MQTT_Thermostat/tmux.sh
+
+## Step 7 (optional): Check if the tmux session with the python programm is running
+    tmux a
+
+
+## Step 8 (if Step 7): Detach from tmux session
+
+    strg+b
+
+    d
