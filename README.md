@@ -2,6 +2,8 @@
 
 ## Follow the next steps to control your thermostat with a raspberry pi
 
+## For hardware connection see:
+https://www.youtube.com/watch?v=WzFFA5_GKVo
 
 ## Create a ssh connection to your pi
     ssh pi@192.168.x.x
@@ -47,4 +49,20 @@
 
     bash /home/pi/MQTT_Thermostat/tmux.sh
 
-## Finish
+## Finish: When you arrive at this point, you are done
+
+
+## Troubleshooting:
+
+  A: Set the Termostat to the operating state "manu"
+
+  B: Turn the encoder one step to the right, like in the video shown:
+  https://www.youtube.com/watch?v=WzFFA5_GKVo
+
+  C: Check if the programm is running
+
+      tmux a
+
+      ctrl+b
+
+      d
