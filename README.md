@@ -54,15 +54,20 @@ https://www.youtube.com/watch?v=WzFFA5_GKVo
 
 ## Troubleshooting:
 
-  A: Set the Termostat to the operating state "manu"
 
-  B: Turn the encoder one step to the right, like in the video shown:
-  https://www.youtube.com/watch?v=WzFFA5_GKVo
+###  A: Set the Termostat to the operating state "manu"
 
-  C: Check if the programm is running
+###  B: Turn the encoder one step to the right
 
-      tmux a
 
-      ctrl+b
+###  C: Check if the programm is running
 
-      d
+with the command "tmux a" you can attach to a running session
+
+    tmux a
+
+with the command "ctrl+b" inside the session with a "d" followed you can detach from this session and the programm keeps running
+
+    ctrl+b
+
+    d
