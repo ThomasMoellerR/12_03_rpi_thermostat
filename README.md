@@ -3,7 +3,7 @@
 ## Follow the next steps to control your thermostat with a raspberry pi
 
 ## For hardware connection see:
-https://www.youtube.com/watch?v=WzFFA5_GKVo
+https://www.youtube.com/watch?v=LlPHrdXHBTU
 
 ## Create a ssh connection to your pi
     ssh pi@192.168.x.x
