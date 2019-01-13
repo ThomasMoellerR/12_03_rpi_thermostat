@@ -24,6 +24,7 @@ https://www.youtube.com/watch?v=LlPHrdXHBTU
 ## Step 2: Install MQTT module for python3
     cd paho.mqtt.python
     sudo python3 setup.py install
+    cd ..
 
 ## Step 3: Install tmux
     sudo apt-get install tmux
