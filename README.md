@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=LlPHrdXHBTU
 
 `@reboot /bin/bash /home/pi/a/MQTT_Thermostat/tmux.sh`
 
-![](crontab.png)
+![](images/crontab.png)
 
 ## Step 5: Make tmux.sh executable
     sudo chmod +x /home/pi/a/MQTT_Thermostat/tmux.sh
