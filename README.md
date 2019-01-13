@@ -15,6 +15,8 @@ https://www.youtube.com/watch?v=LlPHrdXHBTU
 ## Step B: Check if you are in the directory "/home/pi/a"
     pwd
 
+![](images/pwd.png)
+
 ## Step 1: Download these two repositories
     git clone https://github.com/ThomasMoellerR/MQTT_Thermostat.git
     git clone https://github.com/eclipse/paho.mqtt.python
@@ -56,9 +58,9 @@ https://www.youtube.com/watch?v=LlPHrdXHBTU
 ## Troubleshooting:
 
 
-###  A: Set the Termostat to the operating state "manu"
+###  A: Set the Termostat to the operating state "manu" (see Youtube video)
 
-###  B: Turn the encoder one step to the right or left
+###  B: Turn the encoder one step to the right or left (see Youtube video)
 
 
 ###  C: Check if the programm is running
@@ -73,4 +75,4 @@ with the command "ctrl+b" inside the session with a "d" followed you can detach 
 
     d
 
-###  If the session is not running, try Steps 4 and 5 again.
+###  If the session is not running, try Steps 4, 5 and 7 again.
