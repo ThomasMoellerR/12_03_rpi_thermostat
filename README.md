@@ -32,25 +32,15 @@ https://www.youtube.com/watch?v=LlPHrdXHBTU
 
 `@reboot /bin/bash /home/pi/a/MQTT_Thermostat/tmux.sh`
 
+![](crontab.png)
+
 ## Step 5: Make tmux.sh executable
     sudo chmod +x /home/pi/a/MQTT_Thermostat/tmux.sh
 
 ## Step 6: Configure MQTT settings for your thermostat
     nano /home/pi/a/MQTT_Thermostat/main.sh
 
-`--mqtt_server_ip "192.168.2.52" \`
-
-`--mqtt_server_port "1883"`
-
-`--mqtt_topic_set_temperature "thermostat/set_temperature" \`
-
-`--mqtt_topic_ack_temperature "thermostat/ack_temperature" \`
-
-`--thermostat_pin_a "16" \`
-
-`--thermostat_pin_b "18" \`
-
-
+![](images/main.sh.png)
 
 
 ## Step 7: Reboot your Pi or start the tmux session manually
