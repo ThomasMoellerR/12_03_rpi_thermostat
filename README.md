@@ -51,7 +51,7 @@ https://www.youtube.com/watch?v=LlPHrdXHBTU
 
     or
 
-    bash /home/pi/MQTT_Thermostat/tmux.sh
+    bash /home/pi/a/MQTT_Thermostat/tmux.sh
 
 ## --> Finish: When you arrive at this point, you are done
 
